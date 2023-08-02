@@ -1,0 +1,37 @@
+{
+	"app_name": "My Custom Gtk3 App",
+	"welcome_message": {
+		"text": "Welcome to Gtk3!",
+		"font_size": 25
+	},
+	"welcome_description": {
+		"text": "This is a multiline welcome message example.",
+		"font_size": 12
+	},
+	"padding": 25,
+	"layers": [
+		{
+			"title": "Layer 1",
+			"buttons": [{ "label": "Button 1", "command": "echo 'Button 1 clicked!'" }]
+		},
+		{
+			"title": "Layer 2",
+			"buttons": [{ "label": "Button 2", "command": "echo 'Button 2 clicked!'" }]
+		},
+		{
+			"title": "Layer 3",
+			"buttons": [
+				{ "label": "Button 3-1", "command": "echo 'Button 3-1 clicked!'" },
+				{ "label": "Button 3-2", "command": "echo 'Button 3-2 clicked!'" },
+				{ "label": "Button 3-3", "command": "echo 'Button 3-3 clicked!'" }
+			]
+		},
+		{
+			"title": "Layer 4",
+			"buttons": [
+				{ "label": "Button 4-1", "command": "echo 'Button 4-1 clicked!'" },
+				{ "label": "Button 4-2", "command": "echo 'Button 4-2 clicked!'" }
+			]
+		}
+	]
+}
